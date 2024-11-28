@@ -24,6 +24,22 @@ header{
     background-size: cover;
 }
 
+header a {
+    position: relative;
+}
+
+header a::before {
+    content: "";
+    width: 3rem;
+    height: 0.1rem;
+    background-color: white;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 
 @media screen and (max-width: 760px) {
     header{
