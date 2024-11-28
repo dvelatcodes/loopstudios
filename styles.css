@@ -40,12 +40,6 @@ a:hover::before {
     margin: auto;
 }
 
-/* a::before:hover {
-    display: inline;
-} */
-
-
-
 @media screen and (max-width: 760px) {
     header{
         background-image: url('./images/mobile/image-hero.jpg');
