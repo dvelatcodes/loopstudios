@@ -7,5 +7,7 @@ let checker = 'open';
 
 
 hamburgerContainer.addEventListener('click', ()=>{
-    
+    if (checker === 'open') {
+        
+    }
 })
