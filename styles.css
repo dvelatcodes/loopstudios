@@ -23,3 +23,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+@media screen and (max-width: 760px) {
+    header{
+        background-image: url('./images/mobile/image-hero.jpg');
+    }
+}
