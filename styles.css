@@ -6,8 +6,8 @@
 /* font-family: "Kumbh Sans", serif; */
 
 :root {
-    --white : ;
-    --black: ;
-    --dark-gray: ;
-    --very-dark-gray: ;
+    --white : hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray: hsl(0, 0%, 55%);
+    --very-dark-gray: hsl(0, 0%, 41%);
 }
