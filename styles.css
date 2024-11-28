@@ -28,7 +28,7 @@ header a {
     position: relative;
 }
 
-a:hover a::before {
+a:hover::before {
     content: "";
     width: 1.7rem;
     height: 0.15rem;
