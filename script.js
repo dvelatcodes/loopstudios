@@ -17,6 +17,11 @@ hamburgerContainer.addEventListener('click', ()=>{
         checker = 'close';
     }
     else {
-
+        hamburgerOpen.style.display = 'inline';
+        hamburgerClose.style.display = 'none';
+        nav.style.display = 'none';
+        main.style.display = 'block';
+        footer.style.display = 'block';
+        checker = 'open';
     }
 })
