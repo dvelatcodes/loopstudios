@@ -16,7 +16,7 @@
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
   <body>
-    <header class="w-screen h-[60vh] md:h-[40vh] pt-8 pl-4 md:pl-10">
+    <header class="w-screen h-[60vh] md:h-[40vh] pt-8 pl-4 md:pl-10 relative">
       <div class="flex justify-between items-start">
         <img src="./images/logo.svg" alt="logo" />
         <nav class="hidden">
@@ -28,8 +28,8 @@
         </nav>
       </div>
       <div class="ham md:hidden">
-        <img src="./images/icon-hamburger.svg" alt="icon-hamburger" class="md:hidden"/>
-        <img src="./images/icon-close.svg" alt="icon-close" class="hidden md:hidden"/>
+        <img src="./images/icon-hamburger.svg" alt="icon-hamburger" class="md:hidden absolute top-10 right-6"/>
+        <img src="./images/icon-close.svg" alt="icon-close" class="hidden md:hidden absolute top-10 right-6"/>
       </div>
       <h1>Immersive experiences that deliver</h1>
     </header>
