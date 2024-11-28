@@ -28,7 +28,7 @@ header a {
     position: relative;
 }
 
-header a::before {
+a:hover a::before {
     content: "";
     width: 1.7rem;
     height: 0.15rem;
@@ -39,6 +39,11 @@ header a::before {
     right: 0;
     margin: auto;
 }
+
+/* a::before:hover {
+    display: inline;
+} */
+
 
 
 @media screen and (max-width: 760px) {
