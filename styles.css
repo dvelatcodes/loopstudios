@@ -4,3 +4,10 @@
 
 /* font-family: "Josefin Sans", sans-serif; */
 /* font-family: "Kumbh Sans", serif; */
+
+:root {
+    --white : ;
+    --black: ;
+    --dark-gray: ;
+    --very-dark-gray: ;
+}
