@@ -102,16 +102,16 @@ a:hover::before {
     background-image: url("./images/mobile/image-interactive.jpg");
   }
   .deep  {
-    background-image: url();
+    background-image: url('./images/mobile/image-deep-earth.jpg');
   }
   .night{
-    background-image: url();
+    background-image: url('./images/mobile/image-night-arcade.jpg');
   }
   .soccer{
-    background-image: url();
+    background-image: url('./images/mobile/image-soccer-team.jpg');
   }
   .grid{
-    background-image: url();
+    background-image: url('./images/mobile/image-grid.jpg');
   }
   .above{
     background-image: url();
