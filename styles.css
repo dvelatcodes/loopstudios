@@ -47,49 +47,49 @@ a:hover::before {
 }
 
 .deep {
-  background-image: url();
+  background-image: url('./images/desktop/image-deep-earth.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .night {
-  background-image: url();
+  background-image: url('./images/desktop/image-night-arcade.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .soccer {
-  background-image: url();
+  background-image: url('./images/desktop/image-soccer-team.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .grid {
-  background-image: url();
+  background-image: url('./images/desktop/image-grid.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .above {
-  background-image: url();
+  background-image: url('./images/desktop/image-from-above.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .pocket {
-  background-image: url();
+  background-image: url('./images/desktop/image-pocket-borealis.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .curiosity {
-  background-image: url();
+  background-image: url('./images/desktop/image-curiosity.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .fisheye {
-  background-image: url();
+  background-image: url('./images/desktop/image-fisheye.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
