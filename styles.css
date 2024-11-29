@@ -64,7 +64,7 @@ a:hover::before {
   background-size: cover;
 }
 
-.grid {
+.gride {
   background-image: url('./images/desktop/image-grid.jpg');
   background-repeat: no-repeat;
   background-size: cover;
