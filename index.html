@@ -1,131 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Frontend Mentor | Loopstudios landing page</title>
-  </head>
-  <body>
-    <header
-      class="w-screen flex flex-col items-center h-[70vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh] pt-8 xl:pt-16 relative"
-    >
-      <div class="flex justify-between items-start w-[81vw]">
-        <img
-          src="./images/logo.svg"
-          alt="logo"
-          class="h-[1.5rem] md:w-fit md:h-fit relative z-10"
-        />
-        <nav
-          class="hidden md:flex flex-col md:flex-row justify-center items-start absolute md:relative m-auto md:m-0 left-0 top-0 bg-black md:bg-transparent w-screen md:w-fit h-screen md:h-fit text-white gap-y-8 md:gap-y-0 md:gap-x-4 xl:gap-x-8 pl-4 md:pl-0"
-        >
-          <a
-            href="#"
-            class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium"
-            >About
-          </a
-          >
-          <a href="#"
-            class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium"
-            >Careers
-          </a>
-          <a
-            href="#"
-            class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium"
-            >Events</a
-          >
-          <a
-            href="#"
-            class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium"
-            >Products</a
-          >
-          <a
-            href="#"
-            class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium"
-            >Support</a
-          >
-        </nav>
-      </div>
-      <div class="ham md:hidden">
-        <img
-          src="./images/icon-hamburger.svg"
-          alt="icon-hamburger"
-          class="md:hidden absolute top-8 right-6 open"
-        />
-        <img
-          src="./images/icon-close.svg"
-          alt="icon-close"
-          class="hidden md:hidden absolute top-8 right-6 close"
-        />
-      </div>
-      <div class="md:w-[81vw]">
-        <h1
-          class="text-white px-7 xl:pr-32 py-4 text-4xl md:text-5xl xl:md:text-7xl font-extralight mt-36 md:mt-20 xl:mt-36 border-2 border-white w-[87vw] md:w-[50vw] lg:w-[40vw] xl:w-fit uppercase xl:tracking-wide"
-        >
-          Immersive <br class="hidden xl:inline" />
-          experiences <br class="hidden xl:inline" />
-          that deliver
-        </h1>
-      </div>
-    </header>
-    <main class="overflow-hidden">
-      <section
-        class="w-screen h-auto pt-16 lg:pt-32 flex flex-col md:flex-row items-center lg:items-start md:justify-center relative mb-10 md:mb-32"
-      >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+
+<body>
+  <header
+    class="w-screen flex flex-col items-center h-[70vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh] pt-8 xl:pt-16 relative">
+    <div class="flex justify-between items-start w-[81vw]">
+      <img src="./images/logo.svg" alt="logo" class="h-[1.5rem] md:w-fit md:h-fit relative z-10" />
+      <nav
+        class="hidden md:flex flex-col md:flex-row justify-center items-start absolute md:relative m-auto md:m-0 left-0 top-0 bg-black md:bg-transparent w-screen md:w-fit h-screen md:h-fit text-white gap-y-8 md:gap-y-0 md:gap-x-4 xl:gap-x-8 pl-4 md:pl-0">
+        <a href="#" class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium">About
+        </a>
+        <a href="#" class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium">Careers
+        </a>
+        <a href="#"
+          class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium">Events</a>
+        <a href="#"
+          class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium">Products</a>
+        <a href="#"
+          class="uppercase md:normal-case text-4xl md:text-base xl:text-lg font-thin md:font-medium">Support</a>
+      </nav>
+    </div>
+    <div class="ham md:hidden">
+      <img src="./images/icon-hamburger.svg" alt="icon-hamburger" class="md:hidden absolute top-8 right-6 open" />
+      <img src="./images/icon-close.svg" alt="icon-close" class="hidden md:hidden absolute top-8 right-6 close" />
+    </div>
+    <div class="md:w-[81vw]">
+      <h1
+        class="text-white px-7 xl:pr-32 py-4 text-4xl md:text-5xl xl:md:text-7xl font-extralight mt-36 md:mt-20 xl:mt-36 border-2 border-white w-[87vw] md:w-[50vw] lg:w-[40vw] xl:w-fit uppercase xl:tracking-wide">
+        Immersive <br class="hidden xl:inline" />
+        experiences <br class="hidden xl:inline" />
+        that deliver
+      </h1>
+    </div>
+  </header>
+  <main class="overflow-hidden">
+    <section
+      class="w-screen h-auto pt-16 lg:pt-32 flex flex-col md:flex-row items-center lg:items-start md:justify-center relative mb-10 md:mb-32">
+      <div class="virtual w-[92vw] md:w-[60vw] h-[26vh] md:h-[40vh] lg:h-[50vh] xl:h-[70vh]"></div>
+      <div class="md:w-[20vw] md:h-[45vh] lg:h-[55vh] xl:h-[70vh] relative">
         <div
-          class="virtual w-[92vw] md:w-[60vw] h-[26vh] md:h-[40vh] lg:h-[50vh] xl:h-[70vh]"
-        ></div>
-        <div class="md:w-[20vw] md:h-[45vh] lg:h-[55vh] xl:h-[70vh] relative">
-          <div
-            class="pt-8 xl:pt-20 md:bg-white md:absolute md:-left-32 lg:-left-36 xl:lg:-left-52 md:bottom-4 lg:bottom-10 xl:-bottom-1 md:w-[50vw] md:flex md:flex-col md:pl-12 xl:h-[45vh]"
-          >
-            <h1
-              class="text-center md:text-left text-4xl xl:text-6xl font-extralight xl:font-thin uppercase"
-            >
-              The leader in <br class="hidden md:inline" />
-              interactive VR
-            </h1>
-            <p
-              class="text-center md:text-left mt-6 text-slate-600 md:text-slate-500 w-[85vw] md:w-[40vw] lg:w-[30vw] m-auto md:m-0 md:text-sm xl:text-xl md:font-semibold xl:font-medium md:mt-6 md:leading-6"
-            >
-              Founded in 2011, Loopstudios has been producing world-class
-              virtual reality projects for some of the best companies around the
-              globe. Our award-winning creations have transformed businesses
-              through digital experiences that bind to their brand.
-            </p>
-          </div>
+          class="pt-8 xl:pt-20 md:bg-white md:absolute md:-left-32 lg:-left-36 xl:lg:-left-52 md:bottom-4 lg:bottom-10 xl:-bottom-1 md:w-[50vw] md:flex md:flex-col md:pl-12 xl:h-[45vh]">
+          <h1 class="text-center md:text-left text-4xl xl:text-6xl font-extralight xl:font-thin uppercase">
+            The leader in <br class="hidden md:inline" />
+            interactive VR
+          </h1>
+          <p
+            class="text-center md:text-left mt-6 text-slate-600 md:text-slate-500 w-[85vw] md:w-[40vw] lg:w-[30vw] m-auto md:m-0 md:text-sm xl:text-xl md:font-semibold xl:font-medium md:mt-6 md:leading-6">
+            Founded in 2011, Loopstudios has been producing world-class
+            virtual reality projects for some of the best companies around the
+            globe. Our award-winning creations have transformed businesses
+            through digital experiences that bind to their brand.
+          </p>
         </div>
-      </section>
-      <section class="w-screen flex flex-col items-center relative uppercase pb-16">
-        <div class="md:flex md:justify-between md:w-[81vw]">
-          <h1 class="text-center md:text-left text-3xl font-extralight">Our creations</h1>
-          <button class="absolute md:relative bottom-0 m-auto md:m-0 left-0 right-0 border border-black w-fit py-2 px-12 uppercase tracking-widest hover:bg-black hover:text-white">
-            See all
-          </button>
+      </div>
+    </section>
+    <section class="w-screen flex flex-col items-center relative uppercase pb-16">
+      <div class="md:flex md:justify-between md:w-[81vw]">
+        <h1 class="text-center md:text-left text-3xl font-extralight">Our creations</h1>
+        <button
+          class="absolute md:relative bottom-0 m-auto md:m-0 left-0 right-0 border border-black w-fit py-2 px-12 uppercase tracking-widest hover:bg-black hover:text-white">
+          See all
+        </button>
+      </div>
+      <div class="md:w-[81vw] mt-10 flex flex-col md:flex-row md:flex-wrap md:justify-between gap-y-4 md:gap-x-4">
+        <div class="deep w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>Deep <br> earth</h2>
         </div>
-        <div class="md:w-[81vw] mt-10 flex flex-col md:flex-row md:flex-wrap md:justify-between gap-y-4 md:gap-x-4">
-          <div class="deep w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>Deep <br> earth</h2></div>
-          <div class="night w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>Night <br> arcade</h2></div>
-          <div class="soccer w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>Soccer <br> team VR</h2></div>
-          <div class="grid w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>The <br> grid</h2></div>
-          <div class="above w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>From up <br> above VR</h2></div>
-          <div class="pocket w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>Pocket <br> borealis</h2></div>
-          <div class="curiosity w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>The <br> curiosity</h2></div>
-          <div class="fisheye w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh]"><h2>Make it <br> fisheye</h2></div>
+        <div class="night w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>Night <br> arcade</h2>
         </div>
-      </section>
-    </main>
-    <footer></footer>
+        <div class="soccer w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>Soccer <br> team VR</h2>
+        </div>
+        <div class="grid w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>The <br> grid</h2>
+        </div>
+        <div class="above w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>From up <br> above VR</h2>
+        </div>
+        <div class="pocket w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>Pocket <br> borealis</h2>
+        </div>
+        <div class="curiosity w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>The <br> curiosity</h2>
+        </div>
+        <div class="fisheye w-[92vw] md:w-[23%] h-[20vh] md:h-[30vh] lg:h-[40vh] xl:h-[50vh] pb-4 text-white pl-6 flex flex-col justify-end">
+          <h2>Make it <br> fisheye</h2>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
+
 </html>
