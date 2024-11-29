@@ -117,12 +117,12 @@ a:hover::before {
     background-image: url('./images/mobile/image-from-above.jpg');
   }
   .pocket{
-    background-image: url();
+    background-image: url('./images/mobile/image-pocket-borealis.jpg');
   }
   .curiosity{
-    background-image: url();
+    background-image: url('./images/mobile/image-curiosity.jpg');
   }
   .fisheye{
-    background-image: url();
+    background-image: url('./images/mobile/image-fisheye.jpg');
   }
 }
