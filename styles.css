@@ -1,89 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kumbh+Sans:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kumbh+Sans:wght@100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&display=swap");
 
 /* font-family: "Josefin Sans", sans-serif; */
 /* font-family: "Kumbh Sans", serif; */
 
 :root {
-    --white : hsl(0, 0%, 100%);
-    --black: hsl(0, 0%, 0%);
-    --dark-gray: hsl(0, 0%, 55%);
-    --very-dark-gray: hsl(0, 0%, 41%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-header{
-    background-image: url('./images/desktop/image-hero.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header a {
-    position: relative;
+  position: relative;
 }
 
 a:hover::before {
-    content: "";
-    width: 1.7rem;
-    height: 0.15rem;
-    background-color: white;
-    position: absolute;
-    bottom: -0.5rem;
-    left: 0;
-    right: 0;
-    margin: auto;
+  content: "";
+  width: 1.7rem;
+  height: 0.15rem;
+  background-color: white;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .virtual {
-    background-image: url('./images/desktop/image-interactive.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("./images/desktop/image-interactive.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .deep {
-
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.night{
-
+.night {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.soccer{
-
+.soccer {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.grid{
-
+.grid {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.above{
-
+.above {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.pocket{
-
+.pocket {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.curiosity{
-
+.curiosity {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.fisheye{
-
+.fisheye {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 @media screen and (max-width: 760px) {
-    header{
-        background-image: url('./images/mobile/image-hero.jpg');
-    }
-    .virtual {
-        background-image: url('./images/mobile/image-interactive.jpg');
-    }
+  header {
+    background-image: url("./images/mobile/image-hero.jpg");
+  }
+  .virtual {
+    background-image: url("./images/mobile/image-interactive.jpg");
+  }
 }
