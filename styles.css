@@ -101,4 +101,28 @@ a:hover::before {
   .virtual {
     background-image: url("./images/mobile/image-interactive.jpg");
   }
+  .deep  {
+    background-image: url();
+  }
+  .night{
+
+  }
+  .soccer{
+
+  }
+  .grid{
+
+  }
+  .above{
+
+  }
+  .pocket{
+
+  }
+  .curiosity{
+
+  }
+  .fisheye{
+
+  }
 }
