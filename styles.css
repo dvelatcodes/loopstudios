@@ -100,7 +100,7 @@ a:hover::before {
 
 .gallery div::before {
   content: '';
-  width: 18.63vw;
+  width: 100%;
   height: 100%;
   background-color: black;
   position: absolute;
