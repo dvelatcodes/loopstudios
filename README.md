@@ -17,7 +17,7 @@ Your users should be able to:
 
 ## Hosted on github domain
 
-- check out live site here [loopstudios]()
+- check out live site here [loopstudios](https://dvelatcodes.github.io/loopstudios/)
 
 ## My process
 
